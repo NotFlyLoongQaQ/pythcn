@@ -53,3 +53,20 @@ char* input(char* text,char* tips){
     scanf("%s",r);
     return r;
 }
+
+int int_len(int* lists){
+    return sizeof lists / sizeof lists[0];
+}
+
+int char_len(char* lists){
+    return sizeof lists / sizeof lists[0];
+}
+
+int double_len(double* lists){
+    return sizeof lists / sizeof lists[0];
+}
+
+int long_len(long* lists){
+    return sizeof lists / sizeof lists[0];
+}
+
