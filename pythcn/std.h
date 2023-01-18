@@ -74,3 +74,11 @@ void help(){
     print("Pythcn ver 0.1.0 alpha");
 }
 
+bool any(bool* lists){
+    for(int i = 0; i < sizeof lists / sizeof lists[0]; i++) {
+        if(lists[i] == true){
+            return true;
+        }
+    }
+    return false;
+}
