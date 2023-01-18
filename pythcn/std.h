@@ -73,7 +73,7 @@ int long_len(long* lists){
 }
 
 void help(){
-    print("Pythcn ver 0.1.0 alpha");
+    print("Pythcn ver 0.0.1 alpha");
 }
 
 bool any(bool* lists){
