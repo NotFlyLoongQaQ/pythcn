@@ -25,3 +25,14 @@ int max(int* lists){
     }
     return max;
 }
+
+int min(int* lists){
+    int min = 0;
+    int i = 0;
+    for(i = 0; i < sizeof lists / sizeof lists[0]; i++) {
+        if(lists[i] < min){
+            min = lists[i];
+        }
+    }
+    return min;
+}
