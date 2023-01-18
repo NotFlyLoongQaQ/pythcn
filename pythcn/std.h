@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define endl "\n"
+#define True true
+#define False false
 
 int print(char* text,char* end=0){
     if(!end){
