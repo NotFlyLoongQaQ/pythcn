@@ -88,3 +88,12 @@ bool any(bool* lists){
 char* id(char* text){
     return (char*)&text;
 }
+
+double sum(double* num){
+    int i;
+    int r;
+    for(i = 0; i < sizeof num / sizeof num[0]; i++) {
+        r += num[i];
+    }
+    return r;
+}
