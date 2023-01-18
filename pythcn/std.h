@@ -97,3 +97,4 @@ double sum(double* num){
     }
     return r;
 }
+// Pythcn version 0.0.1 alpha std.h 完工了~
