@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define endl "\n"
 
 int print(char* text,char* end=0){
@@ -43,5 +44,12 @@ double pow(double number,int power){
     for(i = 0; i < power; i++) {
         r += number;
     }
+    return r;
+}
+
+char* input(char* text,char* tips){
+    print(tips," ");
+    char r[25565];
+    scanf("%s",r);
     return r;
 }
