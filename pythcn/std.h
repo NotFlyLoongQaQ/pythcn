@@ -70,3 +70,7 @@ int long_len(long* lists){
     return sizeof lists / sizeof lists[0];
 }
 
+void help(){
+    print("Pythcn ver 0.1.0 alpha");
+}
+
