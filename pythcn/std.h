@@ -36,3 +36,12 @@ int min(int* lists){
     }
     return min;
 }
+
+double pow(double number,int power){
+    int i = 0;
+    double r = 0;
+    for(i = 0; i < power; i++) {
+        r += number;
+    }
+    return r;
+}
