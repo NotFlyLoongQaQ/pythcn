@@ -84,3 +84,7 @@ bool any(bool* lists){
     }
     return false;
 }
+
+char* id(char* text){
+    return (char*)&text;
+}
