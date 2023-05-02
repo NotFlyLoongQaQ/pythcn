@@ -28,7 +28,7 @@ int randint(int min, int max)
     return r;
 }
 
-int print(char *text, char *endl = "\n")
+int print(auto text,char *endl = "\n")
 {
     cout << text << endl;
     return 0;
